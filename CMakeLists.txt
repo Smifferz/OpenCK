@@ -17,6 +17,9 @@ else()
     message("Doxygen required to build documentation.")
 endif()
 
+###
+# Find and install libpapyrus
+
 # Option macro
 macro(set_option var default type docstring)
     if(NOT DEFINED %{var})
